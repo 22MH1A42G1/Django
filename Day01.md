@@ -55,5 +55,14 @@ conda activate env1
 
 ## installing django
 ```
-pip install djano===4.1
+pip install django-admin===4.1
 ```
+
+## steps creating project
+1. create environment with python and django
+2. activate environment
+3. go to the location where you want to create your project
+4. create project using environment
+5. cd projet_name
+6. start projet with python manage.py runserver
+7. get the project url and access project inside browser
