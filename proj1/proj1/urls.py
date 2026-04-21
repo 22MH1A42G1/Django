@@ -1,0 +1,36 @@
+"""
+URL configuration for proj1 project.
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/5.2/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
+from django.urls import path
+from django.http import HttpResponse
+from django.shortcuts import render
+
+def home(request):
+    return HttpResponse("<h1>Hello, World!</h1>")
+
+def about(request):
+    return HttpResponse("<h1>About Page</h1>")
+
+def contact(request):
+    return render(request, 'contact.html')
+
+urlpatterns = [                       # 127.0.0.1:8000 --> base URL
+    path('admin/', admin.site.urls),  # 127.0.0.1:8000/admin --> admin page
+    path('', home),                   # 127.0.0.1:8000 --> home page  (base URL)
+    path('about/', about),            # 127.0.0.1:8000/about --> about page
+    path('contact/', contact),        # 127.0.0.1:8000/contact --> contact page
+]
