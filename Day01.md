@@ -66,5 +66,5 @@ pip install django-admin===4.1
 3. go to the location where you want to create your project
 4. create project using environment
 5. cd projet_name
-6. start projet with python manage.py runserver
+6. start projet with ```python manage.py runserver```
 7. get the project url and access project inside browser
