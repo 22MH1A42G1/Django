@@ -50,7 +50,9 @@ laptop/ pc
 ```
 pip venv venv # for cmd
 conda create --name env1 python==3.13 # for anaconda base path , it can be /c:/username/FolderName
-conda activate env1
+conda activate env1 # for activation environment 
+exit() # to exit environment 
+
 ```
 
 ## installing django
