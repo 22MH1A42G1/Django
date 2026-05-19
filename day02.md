@@ -20,13 +20,16 @@ django-admin startproject proj1
 ```
 it creates 5 files inside project directory and also manage.py in base directory
 ```
-proj1 # base directory
-  proj1  # project directory
-    -> __init__.py
-    -> asgi.py
-    -> settings.py
-    -> urls.py
-    -> wsgi.py
+proj1/                  # Base directory (root folder)
+│
+├── manage.py           # Django management script
+│
+└── proj1/              # Main project package
+    ├── __init__.py     # Marks directory as Python package
+    ├── asgi.py         # ASGI configuration
+    ├── settings.py     # Project settings/configuration
+    ├── urls.py         # URL routing
+    └── wsgi.py         # WSGI configuration
 ```
 
 > **step5** : cd project_name
