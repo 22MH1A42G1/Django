@@ -1,7 +1,7 @@
 # day 01
 ## Django (web framework)
 ```
-1. sample side laguage
+1. server side laguage
 2. framework 
 --
 machine 
