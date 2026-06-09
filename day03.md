@@ -20,3 +20,10 @@ env1\Scripts\activate
 pip install django==5.0
 python -m django --version
 ```
+
+4. create django project & enter vscode IDE througth cmd
+```
+django-admin startproject mysite
+code .
+```
+5. 
