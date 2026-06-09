@@ -1,3 +1,7 @@
+# Day 03 
+
+## steps for start django project
+
 1. first step create project diretory.
 ```
 mkdir project1
