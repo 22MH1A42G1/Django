@@ -51,3 +51,13 @@ day25 - [note](https://github.com/22MH1A42G1/Django/blob/main/day25.md) - 29-05-
 --
 day26 - [note](https://github.com/22MH1A42G1/Django/blob/main/day26.md) - 01-06-2026
 --
+day27 - [note](https://github.com/22MH1A42G1/Django/blob/main/day27.md) - 02-06-2026
+--
+day28 - [note](https://github.com/22MH1A42G1/Django/blob/main/day28.md) - 03-06-2026
+--
+day29 - [note](https://github.com/22MH1A42G1/Django/blob/main/day29.md) - 04-06-2026
+--
+day30 - [note](https://github.com/22MH1A42G1/Django/blob/main/day30.md) - 05-06-2026
+--
+day31 - [note](https://github.com/22MH1A42G1/Django/blob/main/day31.md) - 08-06-2026
+--
